@@ -14,7 +14,7 @@ class CustomDrawer extends StatelessWidget {
       _DrawerItem('Portada', '/'),
       _DrawerItem('Institución', '/institucion'),
       _DrawerItem('Vida Estudiantil', '/vida-estudiantil'),
-      _DrawerItem('Títulos Profesionales', '/titulos-profesionales'),
+      _DrawerItem('Nuestro Ecosistema', '/nuestro-ecosistema'),
       _DrawerItem('Contactos', '/contactos'),
     ];
 

@@ -4,6 +4,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import '../widgets/mission_vision_valores_widget.dart';
 import '../widgets/custom_drawer.dart';
 import '../widgets/vida_estudiantil_widget.dart';
+import '../widgets/nuestro_ecosistema_widget.dart';
 
 class PortadaPage extends StatefulWidget {
   const PortadaPage({Key? key}) : super(key: key);
@@ -53,7 +54,7 @@ class _PortadaPageState extends State<PortadaPage> {
           case '/vida-estudiantil':
             _scrollTo(_vidaKey);
             break;
-          case '/titulos-profesionales':
+          case '/nuestro-ecosistema':
             _scrollTo(_titulosKey);
             break;
           case '/contactos':
@@ -116,7 +117,7 @@ class _PortadaPageState extends State<PortadaPage> {
             ),
             KeyedSubtree(key: _institucionKey, child: const MissionVisionValoresWidget()),
             KeyedSubtree(key: _vidaKey, child: const VidaEstudiantilWidget()),
-            KeyedSubtree(key: _titulosKey, child: const _SectionPlaceholder(title: 'Títulos Profesionales')),
+            KeyedSubtree(key: _titulosKey, child: const NuestroEcosistemaWidget()),
             KeyedSubtree(key: _contactosKey, child: const _SectionPlaceholder(title: 'Contactos')),
             const SizedBox(height: 24),
           ],

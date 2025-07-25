@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:teco_app/pages/titulos_profesionales_page.dart';
 
 import 'pages/portada_page.dart';
 import 'pages/institucion_page.dart';
 import 'pages/vida_estudiantil_page.dart';
-import 'pages/titulos_profesionales_page.dart';
 import 'pages/contactos_page.dart';
 import 'pages/aula_virtual_page.dart';
 
@@ -32,8 +32,8 @@ class MyApp extends StatelessWidget {
           builder: (context, state) => const VidaEstudiantilPage(),
         ),
         GoRoute(
-          path: '/titulos-profesionales',
-          builder: (context, state) => const TitulosProfesionalesPage(),
+          path: '/nuestro-ecosistema',
+          builder: (context, state) => const NuestroEcosistemaPage(),
         ),
         GoRoute(
           path: '/contactos',
