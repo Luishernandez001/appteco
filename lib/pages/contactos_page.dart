@@ -11,7 +11,7 @@ class ContactosPage extends StatelessWidget {
       drawer: const CustomDrawer(),
       appBar: AppBar(
         title: const Text('Contactos'),
-        backgroundColor: const Color(0xFF0077FF),
+        backgroundColor: const Color(0xFF00101E),
       ),
       body: const SingleChildScrollView(
         child: ContactFormWidget(),

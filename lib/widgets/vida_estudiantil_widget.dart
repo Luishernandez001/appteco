@@ -19,7 +19,7 @@ class VidaEstudiantilWidget extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       padding: const EdgeInsets.symmetric(vertical: 24),
       decoration: BoxDecoration(
-        color: Colors.blue.shade50,
+        color: Color(0xFFE5FBE6),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(

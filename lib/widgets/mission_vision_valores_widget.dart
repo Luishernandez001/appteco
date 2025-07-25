@@ -9,7 +9,7 @@ class MissionVisionValoresWidget extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: color ?? Colors.blue.shade50,
+        color: color ?? Color(0xFFE5FBE6),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
@@ -48,7 +48,7 @@ class MissionVisionValoresWidget extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
-          color: Colors.blue.shade100,
+          color: Color(0xFFE5FBE6),
         ),
         _buildCard(
           'Visión',
@@ -57,7 +57,7 @@ class MissionVisionValoresWidget extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
-          color: Colors.blue.shade50,
+          color: Color(0xFFE5FBE6),
         ),
       ],
     );

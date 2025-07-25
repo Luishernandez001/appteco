@@ -11,7 +11,7 @@ class InstitucionPage extends StatelessWidget {
       drawer: const CustomDrawer(),
       appBar: AppBar(
         title: const Text('Institución'),
-        backgroundColor: const Color(0xFF0077FF),
+        backgroundColor: const Color(0xFF76D45D),
       ),
       body: const SingleChildScrollView(
         child: MissionVisionValoresWidget(),

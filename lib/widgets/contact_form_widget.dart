@@ -79,7 +79,7 @@ class _ContactFormWidgetState extends State<ContactFormWidget> with SingleTicker
       margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
-        color: Colors.blue.shade50,
+        color: Color(0xFFE5FBE6),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Form(
@@ -167,9 +167,10 @@ class _ContactFormWidgetState extends State<ContactFormWidget> with SingleTicker
                   width: 180,
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   decoration: BoxDecoration(
-                    gradient: const LinearGradient(colors: [Color(0xFF00B4DB), Color(0xFF00D8A7)]),
+                    gradient: const LinearGradient(colors: [Color(0xFFFEE066), Color(0xFFFEE066)]),
                     borderRadius: BorderRadius.circular(50),
                   ),
+                  
                   child: Center(
                     child: _sending
                         ? const SizedBox(height: 18, width: 18, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white))
