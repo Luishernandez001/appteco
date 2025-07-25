@@ -65,8 +65,9 @@ class _PortadaPageState extends State<PortadaPage> {
         }
       }),
       appBar: AppBar(
-        title: const Text('Portada'),
-        backgroundColor: const Color(0xFF0077FF),
+        title: const Text('Portada', style: TextStyle(color: Colors.white),),
+        backgroundColor: const Color(0xFF00101E),
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: SingleChildScrollView(
         controller: _scrollController,
@@ -110,7 +111,7 @@ class _PortadaPageState extends State<PortadaPage> {
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Colors.blue,
+                      color: Color(0xFF00101E), 
                     ),
                   ),
                 ],
@@ -139,7 +140,7 @@ class _SectionPlaceholder extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
-        color: Colors.blue.shade50,
+        color: Color(0xFF00101E),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Text(
@@ -148,7 +149,7 @@ class _SectionPlaceholder extends StatelessWidget {
         style: const TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,
-          color: Colors.blue,
+          color: Color(0xFF00101E),
         ),
       ),
     );

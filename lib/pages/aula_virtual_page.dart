@@ -8,7 +8,7 @@ class AulaVirtualPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Aula Virtual'),
-        backgroundColor: const Color(0xFF0077FF),
+        backgroundColor: const Color(0xFF00101E),
       ),
       body: const Center(
         child: Text('En construcción'),

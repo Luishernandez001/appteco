@@ -89,7 +89,7 @@ class _ContactFormWidgetState extends State<ContactFormWidget> with SingleTicker
           children: [
             const Text(
               '¿Tienes alguna pregunta?',
-              style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.teal),
+              style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Color(0xFF00101E)),
             ),
             const SizedBox(height: 4),
             const Text(

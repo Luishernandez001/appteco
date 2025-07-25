@@ -25,7 +25,7 @@ class _NuestroEcosistemaWidgetState extends State<NuestroEcosistemaWidget> {
           style: TextStyle(
             fontSize: 28,
             fontWeight: FontWeight.bold,
-            color: Colors.blue,
+            color: Color(0xFF00101E),
           ),
         ),
         const SizedBox(height: 16),

@@ -20,7 +20,7 @@ class CustomDrawer extends StatelessWidget {
 
     return Drawer(
       child: Container(
-        color: const Color(0xFF0077FF),
+        color: const Color(0xFF00101E),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
