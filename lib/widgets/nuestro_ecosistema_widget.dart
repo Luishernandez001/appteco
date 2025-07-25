@@ -81,13 +81,13 @@ class _NuestroEcosistemaWidgetState extends State<NuestroEcosistemaWidget> {
 
   Widget _academyPrograms(BuildContext context) {
     final courses = [
-      'Programación Asistida por LLMs',
-      'Flutter & Firebase',
-      'Modelado 3D con Blender',
-      'Unity & Experiencias Interactivas',
-      'Diseño Gráfico & UI/UX',
-      'Animación 2D & CGI',
-      'Metodologías Ágiles',
+      'Programación',
+      'Flutter',
+      'Modelado 3D',
+      'Unity',
+      'UI/UX',
+      'CGI',
+      'Met. Ágiles',
     ];
     return _baseCard(
       child: Column(
