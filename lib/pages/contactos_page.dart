@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/custom_drawer.dart';
+import '../widgets/contact_form_widget.dart';
 
 class ContactosPage extends StatelessWidget {
   const ContactosPage({Key? key}) : super(key: key);
@@ -12,15 +13,8 @@ class ContactosPage extends StatelessWidget {
         title: const Text('Contactos'),
         backgroundColor: const Color(0xFF0077FF),
       ),
-      body: const Center(
-        child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Text(
-            'Información de Contactos',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 18),
-          ),
-        ),
+      body: const SingleChildScrollView(
+        child: ContactFormWidget(),
       ),
     );
   }

@@ -5,6 +5,7 @@ import '../widgets/mission_vision_valores_widget.dart';
 import '../widgets/custom_drawer.dart';
 import '../widgets/vida_estudiantil_widget.dart';
 import '../widgets/nuestro_ecosistema_widget.dart';
+import '../widgets/contact_form_widget.dart';
 
 class PortadaPage extends StatefulWidget {
   const PortadaPage({Key? key}) : super(key: key);
@@ -118,7 +119,7 @@ class _PortadaPageState extends State<PortadaPage> {
             KeyedSubtree(key: _institucionKey, child: const MissionVisionValoresWidget()),
             KeyedSubtree(key: _vidaKey, child: const VidaEstudiantilWidget()),
             KeyedSubtree(key: _titulosKey, child: const NuestroEcosistemaWidget()),
-            KeyedSubtree(key: _contactosKey, child: const _SectionPlaceholder(title: 'Contactos')),
+            KeyedSubtree(key: _contactosKey, child: const ContactFormWidget()),
             const SizedBox(height: 24),
           ],
         ),
